@@ -35,7 +35,7 @@ copy Installer.bat .\SoftFiles\Installer.bat
 
 REM Delete Files
 del *.c
-del Installer.bat
+del *.bat
 
 echo Press Any Key To Run The Program
 pause
