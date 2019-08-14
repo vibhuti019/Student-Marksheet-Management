@@ -13,11 +13,11 @@ gcc -o ./SoftFiles/print Print_dic.c
 gcc -o ./SoftFiles/addentries Add_Entries.c
 gcc -o ./SoftFiles/view view_marksheet.c
 gcc -o ./SoftFiles/main main.c
-
+copy sprint.bat .\SoftFiles\sprint.bat
 
 REM Create Shorcut To Start The Program
 echo Set oWS = WScript.CreateObject("WScript.Shell") > CreateShortcut.vbs
-echo sLinkFile = "%CD%\StudentDatabase.lnk" >> CreateShortcut.vbs
+echo sLinkFile = "%CD%\StuDBMS.lnk" >> CreateShortcut.vbs
 echo Set oLink = oWS.CreateShortcut(sLinkFile) >> CreateShortcut.vbs
 echo oLink.TargetPath = "%CD%\SoftFiles\main.exe" >> CreateShortcut.vbs
 echo oLink.WorkingDirectory = "%CD%\SoftFiles" >> CreateShortcut.vbs
@@ -27,17 +27,17 @@ del CreateShortcut.vbs
 
 
 REM Deletes And Put Files In Required Directories
-REM copy Print_dic.c .\SoftFiles\Print_dic.c
-REM copy Add_Entries.c  .\SoftFiles\Add_Entries.c
-REM copy view_marksheet.c  .\SoftFiles\view_marksheet.c
-REM copy main.c  .\SoftFiles\main.c
-REM copy Installer.bat .\SoftFiles\Installer.bat
-
+copy Print_dic.c .\SoftFiles\Print_dic.c
+copy Add_Entries.c  .\SoftFiles\Add_Entries.c
+copy view_marksheet.c  .\SoftFiles\view_marksheet.c
+copy main.c  .\SoftFiles\main.c
+copy Installer.bat .\SoftFiles\Installer.bat
 
 REM Delete Files
 del *.c
 del Installer.bat
+
 echo Press Any Key To Run The Program
 pause
-echo Use StudentDatabase Shortcut To Run Program
+echo Use StuDBMS Shortcut To Run Program
 pause
