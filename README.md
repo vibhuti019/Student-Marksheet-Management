@@ -6,7 +6,7 @@
    * It Requires Windows Operating System To Run.
 
 ## Getting Started:-
-* Download Only The StuDBMS.exe File
+* Download Only The StuDBMS.exe File.
 
 ## Working On Source Code:-
 
@@ -14,34 +14,33 @@
 ### To Complie The Code Directly Using In Build Installer :-
 
 ####  Prerequisites :-
- * You Must Have gcc in Environmnet Variable Path.
+ * You Must Have gcc in _Environmnet Variable **Path**_.
 #### Steps to Check The Prequisites :- 
  * You Can Check This By Command "gcc" in Command Prompt
- * If It Says " 'gcc' is not recognized as an internal or external command, operable program or batch file
- * You Need To Add 'gcc' In PATH Variable
+ * If It Says " 'gcc' is not recognized as an internal or external command, operable program or batch file".
+ * You Need To Add 'gcc' In **PATH** Variable.
+ * If You Have gcc Compiler (In Path) Directly Run Installer.bat. 
  
- * If You Have gcc Compiler (In Path) Directly Run Installer.bat  
 #### Steps To Add Gcc In PATH Variable :-
 
- * Directly Install [Tdm-gcc](http://tdm-gcc.tdragon.net/download) - It Will Append PATH Variable Too 
-
- 
-##### In Windows 10 and Windows 8
-1. In Search, search for and then select: ** **System** from **Control Panel** **
-2. Click the * *Advanced system settings* * link.
-3. Click * *Environment Variables* *. In the section * *System Variables* *, find the **PATH** environment variable and select it. Click * *Edit* *. If the PATH environment variable does not exist, click * *New* *.
-4. In the * *Edit System Variable* * (or * *New System Variable* *) window, specify the value of the **PATH** environment variable.Click * *OK* *. Close all remaining windows by clicking * *OK* *.
+ * If **GCC Compiler** Is Not Installed. Directly Install [Tdm-gcc](http://tdm-gcc.tdragon.net/download)
+#### Or Another Ways Are
+#### In Windows 10 and Windows 8
+1. In Search, search for and then select: **_System_ from _Control Panel_**
+2. Click the **_Advanced system settings_** link.
+3. Click **_Environment Variables_**. In the section **_System Variables_**, find the **PATH** environment variable and select it. Click **_Edit_**. If the **PATH** environment variable does not exist, click **_New_**.
+4. In the **_Edit System Variable_** (or **_New System Variable_**) window, specify the value of the **PATH** environment variable.Click **_OK_**. Close all remaining windows by clicking **_OK_**.
 5. Run the **Installer.bat**.
 
-##### In Windows 7
-1. From the * *desktop* *, right click the **Computer** icon.
-2. Choose * *Properties* * from the context menu.
-3. Click the * *Advanced system settings* * link.
-4. Click * *Environment Variables* *. In the section * *System Variables* *, find the **PATH** environment variable and select it. Click * *Edit* *. If the **PATH** environment variable does not exist, click * *New* *.
-5. In the * *Edit System Variable* * (or * *New System Variable* *) window, specify the value of the **PATH** environment variable. Click * *OK* *.Close all remaining windows by clicking * *OK* *.
+#### In Windows 7
+1. From the **_Desktop_**, right click the **Computer** icon.
+2. Choose **_Properties_** from the **_context_** menu.
+3. Click the **_Advanced system settings_** link.
+4. Click **_Environment Variables_**. In the section **_System Variables_**, find the **PATH** environment variable and select it. Click **_Edit_**. If the **PATH** environment variable does not exist, click **_New_**.
+5. In the **_Edit System Variable_** (or **_New System Variable_**) window, specify the value of the **PATH** environment variable. Click **_OK_**.Close all remaining windows by clicking **_OK_**.
 6. Run the **Installer.bat**.
 
 
 ## Author
-* **Vibhuti Singh** - * *College Student :wink:* * -[ABES Engineering College,Ghaziabad](https://www.abes.ac.in/)
+* **Vibhuti Singh** - **_College Student_** :wink: -[ABES Engineering College,Ghaziabad](https://www.abes.ac.in/)
 
