@@ -97,15 +97,7 @@ int index_valid(int index)                                                      
 		strcat(view_file," \"");	
 		if(ch=='p'||ch=='P')                                                                       //view Can Handle Argument If User Wants To Entry   
 		{
-		strcat(view_file," P > ..\\\"      ");
-		for(i=0;view_file[i]!='>';i++);
-		i=i+7;
-		for(int j=0;StudentList[index-1][j]!='.';j++,i++)
-		{
-			view_file[i]=StudentList[index-1][j];
-		}
-		view_file[i]='\0';
-		strcat(view_file,".txt\"");
+			strcat(view_file," P ");
 		}
 		printfooter();                                                                             //Prints Footer
 		system("pause");                                                                           //Halts The System
