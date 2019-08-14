@@ -178,8 +178,7 @@ void printfile()                                                                
 		fprintf(result,"FAIL");
 	}
 	fprintf(result,"\n*                                                                          *");
-	fprintf(result,"\n*                                                                          *");
-	fprintf(result,"\n****************************************************************************\n");
+	fprintf(result,"\n*                                                                          *\n");
 }
 void ConInitialization()                                                                               //Initializes The Console
 {
@@ -224,5 +223,5 @@ int main()                                                                      
 	}
 	printfooter();	                                                                                //Print Footer
 	system("pause");                                                                                //Halts The System
-	system("print");                                                                                //Calls The Program Which Prints List Of Entries
+	system("start print.exe");                                                                      //Calls The Program Which Prints List Of Entries
 }
