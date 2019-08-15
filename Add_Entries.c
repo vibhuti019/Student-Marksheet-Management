@@ -191,37 +191,47 @@ int main()                                                                      
 {
 	char ch;                                                                                       //Check The Input
 	ConInitialization();                                                                           //Decorate The Console	
-	inputs();                                                                                      //Take Inputs                      
-	Ugrade();                                                                                      //Update Grade Variable
-	output();                                                                                      //Prints Output
-	printf("\n*                                                                          *");	
-	printf("\n*                                                                          *");	
-	printf("\n*                                                                          *");	
-	printf("\r*            Do You Wish To Save The Data? Yes(Y) No(N) : ");
-	scanf("%*c%c",&ch);
-	if(ch=='Y'||ch=='y')                                                                            //Asks If User Wants To Save Entry                                            
+	inputs();                                                                                      //Take Inputs
+	if(strlen(rollno)!=11)									       //IF Wrong Roll No
 	{
-			printfile();                                                                    //Prints Content To File
-			printf("*                                                                          *");	
-			printf("\n*                                                                          *");	
-			printf("\n*                                                                          *");	
-			printf("\r*                   All Entries Have Been Saved ");
+		printf("*                                                                          *");	
+		printf("\n*                                                                          *");	
+		printf("\n*                                                                          *");	
+		printf("\r*                     Wrong Input!!! Nothing Saved ");
 	}
-	else if(ch=='N'||ch=='n')                                                                       //Else IF User Opts No
+	else
 	{
+		Ugrade();                                                                                      //Update Grade Variable
+		output();                                                                                      //Prints Output
+		printf("\n*                                                                          *");	
+		printf("\n*                                                                          *");	
+		printf("\n*                                                                          *");	
+		printf("\r*            Do You Wish To Save The Data? Yes(Y) No(N) : ");
+		scanf("%*c%c",&ch);
+		if(ch=='Y'||ch=='y')                                                                            //Asks If User Wants To Save Entry                                            
+		{
+				printfile();                                                                    //Prints Content To File
+				printf("*                                                                          *");	
+				printf("\n*                                                                          *");	
+				printf("\n*                                                                          *");	
+				printf("\r*                   All Entries Have Been Saved ");
+		}
+		else if(ch=='N'||ch=='n')                                                                       //Else IF User Opts No
+		{
 			printf("*                                                                          *");	
 			printf("\n*                                                                          *");	
 			printf("\n*                                                                          *");	
 			printf("\r*                         Entries Not Saved ");
-	}
-	else                                                                                            //In case Of Wrong Input
-	{
+		}
+		else                                                                                            //In case Of Wrong Input
+		{
 			printf("*                                                                          *");	
 			printf("\n*                                                                          *");	
 			printf("\n*                                                                          *");	
 			printf("\r*                     Wrong Input!!! Nothing Saved ");
+		}
 	}
-	printfooter();	                                                                                //Print Footer
-	system("pause");                                                                                //Halts The System
-	system("start print.exe");                                                                      //Calls The Program Which Prints List Of Entries
+		printfooter();	                                                                                //Print Footer
+		system("pause");                                                                                //Halts The System
+		system("start print.exe");                                                                      //Calls The Program Which Prints List Of Entries
 }
