@@ -34,8 +34,12 @@ copy main.c  .\SoftFiles\main.c
 copy Installer.bat .\SoftFiles\Installer.bat
 
 REM Delete Files
-del *.c
-del *.bat
+del main.c
+del Print_dic.c
+del Add_Entries.c
+del view_marksheet.c
+del sprint.bat
+del Installer.bat
 
 echo Press Any Key To Run The Program
 pause
