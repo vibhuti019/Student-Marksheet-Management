@@ -6,7 +6,7 @@
    * It Requires Windows Operating System To Run.
 
 ## Getting Started:-
-* Download Only The StuDBMS.exe File.
+* Download The StuDBMS.exe File From Releases Section.
 
 ## Working On Source Code:-
 
