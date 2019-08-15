@@ -196,7 +196,7 @@ int main()                                                                      
 		printf("\r*                                                                          *");	
 		printf("\n*                                                                          *");	
 		printf("\n*                                                                          *");	
-		printf("\r*                 Wrong Input!!! Enter Correct Roll No ");
+		printf("\r*               Wrong Input!!! Enter 11 Digit Roll No ");
 	}
 	else
 	{
