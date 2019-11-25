@@ -1,10 +1,11 @@
 
-# Database-Management Using C 
+# Student-Marksheet-Management Using C 
 
-   * This Is A Simple DataBase Management Program.
+   * This Is A Simple Record Management Program.
    * It Has Been Created By C Programming Language. 
    * It Requires Windows Operating System To Run.
-
+   * The Created Marksheets Can Be Viewed,Deleted And Printed.
+ 
 ## Getting Started:-
 * Download The StuDBMS.exe File From Releases Section.
 
